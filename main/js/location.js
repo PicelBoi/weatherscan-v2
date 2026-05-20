@@ -2708,8 +2708,10 @@ function dataHeaderDestinationFcst(locNum) {
 }
 function dataHeaderTravelMap(locNum) {
   $.getJSON(
-    "https://api.weather.com/v3/location/point?locid=" +
-      systemSettings.travel.regionalMap.cities[locNum].locationID +
+    "https://api.weather.com/v3/location/point?geocode=" +
+      systemSettings.travel.regionalMap.cities[locNum].lat +
+      "," +
+      systemSettings.travel.regionalMap.cities[locNum].lon +
       "&language=en-US&format=json&apiKey=" +
       api_key,
     function (data) {
