@@ -1435,7 +1435,10 @@ function grabNearbyCities(lat, lon) {
     `https://api.weather.com/v3/location/near?geocode=${locpull}&product=observation&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
     function (data) {
       for (let i = 0; i < data.location.stationId.length; i++) {
-        createNewNearbyCity(data.location.stationId[i]);
+        createNewNearbyCity(
+          data.location.latitude[i],
+          data.location.longitude[i],
+        );
       }
       if (newCities.length >= 8) {
         systemSettings.nearbyCities.cities = newCities.sort((a, b) =>
@@ -1451,20 +1454,21 @@ function grabNearbyCities(lat, lon) {
     },
   );
 }
-function createNewNearbyCity(icao) {
-  var locName, dontPush;
+function createNewNearbyCity(lat, lon) {
+  var locName, wxcode, dontPush;
   $.getJSON(
-    `https://api.weather.com/v3/location/point?icaoCode=${icao}&language=en-US&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
+    `https://api.weather.com/v3/location/point?geocode=${lat},${lon}&language=en-US&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
     function (data) {
       locName = data.location.displayName
         .replace(" Charter Township", "")
         .replace(" Township", "");
+      wxcode = data.location.locId;
       /*if(data.location.locale["locale4"] != null){
             if(!data.location.locale["locale4"].endsWith("Naval Air Station")){locName = data.location.locale["locale4"]}
         }*/
     },
   ).then(() => {
-    var cityObj = { obsName: locName, locationID: icao };
+    var cityObj = { obsName: locName, lat: lat, lon: lon, locationID: wxcode };
     for (let i = 0; i < newCities.length; i++) {
       if (cityObj.obsName == systemSettings.mainCity.locationName) {
         cityObj.locationID = systemSettings.mainCity.locationID;
@@ -1533,7 +1537,8 @@ function grabExtraCities(lat, lon) {
       //console.log(data);
       for (let i = 0; i < data.location.stationId.length; i++) {
         createNewExtraCity(
-          data.location.stationId[i],
+          data.location.latitude[i],
+          data.location.longitude[i],
           data.location.distanceMi[i],
         );
         if (i == data.location.stationId.length - 1) {
@@ -1544,11 +1549,11 @@ function grabExtraCities(lat, lon) {
     },
   );
 }
-function createNewExtraCity(icao, dist) {
+function createNewExtraCity(lat, lon, dist) {
   var extraCityObj,
     dontPush = false;
   $.getJSON(
-    `https://api.weather.com/v3/location/point?icaoCode=${icao}&language=en-US&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
+    `https://api.weather.com/v3/location/point?geocode=${lat},${lon}&language=en-US&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
     function (data) {
       extraCityObj = {
         locationName: data.location.displayName
@@ -1596,7 +1601,6 @@ function createNewExtraCity(icao, dist) {
                 return;
             }
         }*/
-      if (icao == systemSettings.mainCity.locationID) return;
       for (let i = 0; i < newExtraCities.length; i++) {
         if (extraCityObj.locationName == newExtraCities[i].locationName) {
           dontPush = true;
