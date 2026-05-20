@@ -2691,6 +2691,10 @@ function dataHeaderHealth() {
   );
 }
 function dataHeaderDestinationFcst(locNum) {
+  // Ignore location IF lat is nothing
+  if (systemSettings.travel.destinationForecast[locNum].lat == "") {
+    return;
+  }
   $.getJSON(
     "https://api.weather.com/v3/location/point?geocode=" +
       systemSettings.travel.destinationForecast[locNum].lat +
@@ -2707,6 +2711,10 @@ function dataHeaderDestinationFcst(locNum) {
   );
 }
 function dataHeaderTravelMap(locNum) {
+  // Ignore location IF lat is nothing
+  if (systemSettings.travel.regionalMap.cities[locNum].lat == "") {
+    return;
+  }
   $.getJSON(
     "https://api.weather.com/v3/location/point?geocode=" +
       systemSettings.travel.regionalMap.cities[locNum].lat +
