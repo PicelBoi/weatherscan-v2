@@ -1674,6 +1674,10 @@ function grabTickerCities(lat, lon) {
     `https://api.weather.com/v3/location/near?geocode=${lat},${lon}&product=observation&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
     function (data) {
       for (let i = 0; i < 10; i++) {
+        // We shouldn't get data from buoys, TWC doesn't have data on them
+        if (data.location.obsType[i] == "BUOY") {
+          continue;
+        }
         createNewCity(
           data.location.latitude[(i * 5) % data.location.latitude.length],
           data.location.longitude[(i * 2) % data.location.latitude.length],
