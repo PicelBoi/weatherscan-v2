@@ -339,7 +339,7 @@ img#mist-logo {
   position: absolute;
   width: 1620px;
   height: 1080px;
-  background: url(images/backgrounds/wxscan_default_bg.png);
+  background: url(/images/backgrounds/wxscan_default_bg.png);
   background-size: 100% 100%;
 }
 #mainreference {
@@ -358,7 +358,7 @@ img#mist-logo {
   left: 10px;
   top: -3px;
   height: 1079px;
-  background: url(images/lbarreference5.png);
+  background: url(/images/lbarreference5.png);
   background-size: 100% 100%;
   image-rendering: pixelated;
   z-index: 0;
@@ -429,7 +429,7 @@ img#mist-logo {
   width: 168px;
   bottom: 533.25px;
   height: 151px;
-  background: url(images/icons2010/small/Sun.webp);
+  background: url(/images/icons2010/small/Sun.webp);
   background-size: 100% 100%;
 }
 .obs-lbar .obs-ticker {
@@ -553,27 +553,27 @@ img#mist-logo {
 .radar-lbar .cities .city .dot {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotSmall.png) no-repeat;
+  background: transparent url(/images/assets/locatorDotSmall.png) no-repeat;
   background-size: 100% 100%;
 }
 .radar-lbar .cities .city .dot-outline {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotSmallOutline.png)
+  background: transparent url(/images/assets/locatorDotSmallOutline.png)
     no-repeat;
   background-size: 100% 100%;
 }
 .radar-lbar .cities-trans .city .dot-trans {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/locatorDotSmallOutline.70.png)
+  background: transparent url(/images/assets/locatorDotSmallOutline.70.png)
     no-repeat;
   background-size: 100% 100%;
 }
 .radar-lbar .cities-trans .city .dot-outline {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotOutline.png) no-repeat;
+  background: transparent url(/images/assets/locatorDotOutline.png) no-repeat;
   background-size: 100% 100%;
 }
 .radar-lbar .cities .city .name {
@@ -762,7 +762,7 @@ img#mist-logo {
   transform-origin: bottom;
   bottom: 197px;
   margin-right: 85px;
-  background: url(images/icons2010/small/Sun.webp);
+  background: url(/images/icons2010/small/Sun.webp);
   background-size: 100% 100%;
   width: 101.25px;
   height: 91.7969px;
@@ -852,7 +852,7 @@ img#mist-logo {
   transform-origin: bottom;
   bottom: 247px;
   margin-right: 114px;
-  background: url(images/icons2010/small/Sun.webp);
+  background: url(/images/icons2010/small/Sun.webp);
   background-size: 100% 100%;
   width: 109.672px;
   height: 99.4375px;
@@ -978,7 +978,7 @@ img#mist-logo {
   position: absolute;
   width: 1620px;
   height: 1080px;
-  background: url(images/backgrounds/core_bg.png);
+  background: url(/images/backgrounds/core_bg.png);
   background-size: 100% 100%;
 }
 .skeleton {
@@ -1032,53 +1032,53 @@ img#mist-logo {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/middle_blue.png);
+  background: url(/images/assets/middle_blue.png);
   background-size: 1458px, 614px;
 }
 .dimmerpanel {
-  background: url(images/assets/middle_darkblue.png) !important;
+  background: url(/images/assets/middle_darkblue.png) !important;
   background-size: 1458px, 614px !important;
 }
 .darkpanel {
   position: absolute;
   width: 1458px;
   height: 49px;
-  background: url(images/assets/middle_darkerpurple.png);
+  background: url(/images/assets/middle_darkerpurple.png);
   background-size: 1458px, 614px;
 }
 .brightpanel {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/middle_bluehighlight.png);
+  background: url(/images/assets/middle_bluehighlight.png);
   background-size: 1458px, 614px;
 }
 .dividerpanel {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/middle_darkblue.png); /*background: url(images/assets/middle_purple.png);*/
+  background: url(/images/assets/middle_darkblue.png); /*background: url(/images/assets/middle_purple.png);*/
   background-size: 1458px, 614px;
 }
 .verticaldividerpanel {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/middle_darkerpurple.png);
+  background: url(/images/assets/middle_darkerpurple.png);
   background-size: 1458px, 614px;
 }
 .purplepanel {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/bottom_purple.png);
+  background: url(/images/assets/bottom_purple.png);
   background-size: 1458px, 614px;
 }
 .orangepanel {
   position: absolute;
   width: 1458px;
   height: 614px;
-  background: url(images/assets/middle_red.png);
+  background: url(/images/assets/middle_red.png);
   background-size: 1458px, 614px;
 }
 .smallicon {
@@ -1183,7 +1183,7 @@ img#mist-logo {
   max-width: 166.5px;
   min-width: 4px;
   z-index: 2;
-  background-image: url(images/assets/tickerArrow.png);
+  background-image: url(/images/assets/tickerArrow.png);
 }
 .normal-lowerarea .ticker-tab span,
 .normal-lowerarea .ticker-tab .ticker-tab-text {
@@ -1296,10 +1296,10 @@ img#mist-logo {
   position: absolute;
   width: 100%;
   height: 100%;
-  /*background-image: url(images/introbase1.png);*/
-  background-image: url(images/backgrounds/ocean_bg.png); /*
-  background-image: url(images/backgrounds/philadelphia_bg.png);*/
-  /*background-image: url(images/backgrounds/cranford_bg_two.png);*/
+  /*background-image: url(/images/introbase1.png);*/
+  background-image: url(/images/backgrounds/ocean_bg.png); /*
+  background-image: url(/images/backgrounds/philadelphia_bg.png);*/
+  /*background-image: url(/images/backgrounds/cranford_bg_two.png);*/
   background-size: 100% 100%;
   z-index: 5;
 }
@@ -1410,7 +1410,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 48px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 3.33% 100%;
   opacity: 0.4;
   bottom: 224px;
@@ -1441,7 +1441,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/city_bg.png);
+  background-image: url(/images/backgrounds/city_bg.png);
   background-size: 100% 100%;
 }
 .upnext .circle-one {
@@ -1494,7 +1494,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3306px;
   width: 500%;
   height: 40px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.51% 100%;
   opacity: 0.4;
   bottom: 212px;
@@ -1600,7 +1600,7 @@ its not 1 for 1 code using so i mean i guess its aight
   position: absolute;
   width: 1620px;
   height: 1080px;
-  background: url(images/backgrounds/weather_bulletin_bg.png);
+  background: url(/images/backgrounds/weather_bulletin_bg.png);
   background-size: 100% 100%;
   transform: translate(-162px, -247px);
 }
@@ -1677,7 +1677,7 @@ its not 1 for 1 code using so i mean i guess its aight
   right: 754px;
   height: 100px;
   width: 30px;
-  /* background: url(images/assets/down_arrow.png); */
+  /* background: url(/images/assets/down_arrow.png); */
   /* background-size: 100% 45px; */
   /* background-position-y: 12px; */
   /* background-repeat: no-repeat; */
@@ -2019,7 +2019,7 @@ its not 1 for 1 code using so i mean i guess its aight
 }
 .doppler-radar .radar-legend .radar-legend-bar {
   position: absolute;
-  background: transparent url(images/assets/radarlegend.png) no-repeat;
+  background: transparent url(/images/assets/radarlegend.png) no-repeat;
   height: 24px;
   width: 225px;
   right: 292px;
@@ -2075,25 +2075,25 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .cities .city .dot {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDot.png) no-repeat;
+  background: transparent url(/images/assets/locatorDot.png) no-repeat;
   background-size: 100% 100%;
 }
 .doppler-radar .cities .city .dot-outline {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotOutline.png) no-repeat;
+  background: transparent url(/images/assets/locatorDotOutline.png) no-repeat;
   background-size: 100% 100%;
 }
 .doppler-radar .cities-trans .city .dot-trans {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/locatorDotOutline.70.png) no-repeat;
+  background: transparent url(/images/assets/locatorDotOutline.70.png) no-repeat;
   background-size: 100% 100%;
 }
 .doppler-radar .cities-trans .city .dot-outline {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotOutline.png) no-repeat;
+  background: transparent url(/images/assets/locatorDotOutline.png) no-repeat;
   background-size: 100% 100%;
 }
 .doppler-radar .cities .city .name {
@@ -2159,7 +2159,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon.usHwySign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/usHwySign.png) no-repeat;
+  background: transparent url(/images/assets/usHwySign.png) no-repeat;
   background-size: 100% 100%;
   height: 70px;
   width: 70px;
@@ -2167,7 +2167,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon-outline.usHwySign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/usHwySignOutline.png) no-repeat;
+  background: transparent url(/images/assets/usHwySignOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 70px;
   width: 70px;
@@ -2185,7 +2185,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon.usHwySign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/usHwySign70.png) no-repeat;
+  background: transparent url(/images/assets/usHwySign70.png) no-repeat;
   background-size: 100% 100%;
   height: 70px;
   width: 70px;
@@ -2193,7 +2193,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon-outline.usHwySign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/usHwySignOutline.png) no-repeat;
+  background: transparent url(/images/assets/usHwySignOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 70px;
   width: 70px;
@@ -2212,7 +2212,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon.stateHwySign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/stateHwySign.png) no-repeat;
+  background: transparent url(/images/assets/stateHwySign.png) no-repeat;
   background-size: 100% 100%;
   height: 61px;
   width: 70px;
@@ -2220,7 +2220,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon-outline.stateHwySign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/stateHwySignOutline.png) no-repeat;
+  background: transparent url(/images/assets/stateHwySignOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 61px;
   width: 70px;
@@ -2238,7 +2238,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon.stateHwySign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/stateHwySign70.png) no-repeat;
+  background: transparent url(/images/assets/stateHwySign70.png) no-repeat;
   background-size: 100% 100%;
   height: 61px;
   width: 70px;
@@ -2246,7 +2246,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon-outline.stateHwySign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/stateHwySignOutline.png) no-repeat;
+  background: transparent url(/images/assets/stateHwySignOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 61px;
   width: 70px;
@@ -2265,7 +2265,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon.interstateSign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/interstateSign.png) no-repeat;
+  background: transparent url(/images/assets/interstateSign.png) no-repeat;
   background-size: 100% 100%;
   height: 62px;
   width: 71px;
@@ -2273,7 +2273,8 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon-outline.interstateSign {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/interstateSignOutline.png) no-repeat;
+  background: transparent url(/images/assets/interstateSignOutline.png)
+    no-repeat;
   background-size: 100% 100%;
   height: 62px;
   width: 71px;
@@ -2291,7 +2292,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon.interstateSign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/interstateSign70.png) no-repeat;
+  background: transparent url(/images/assets/interstateSign70.png) no-repeat;
   background-size: 100% 100%;
   height: 62px;
   width: 71px;
@@ -2299,7 +2300,8 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon-outline.interstateSign {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/interstateSignOutline.png) no-repeat;
+  background: transparent url(/images/assets/interstateSignOutline.png)
+    no-repeat;
   background-size: 100% 100%;
   height: 62px;
   width: 71px;
@@ -2318,7 +2320,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon.airplane {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/airplane.png) no-repeat;
+  background: transparent url(/images/assets/airplane.png) no-repeat;
   background-size: 100% 100%;
   height: 71px;
   width: 55px;
@@ -2326,7 +2328,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons .icon-outline.airplane {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/airplaneOutline.png) no-repeat;
+  background: transparent url(/images/assets/airplaneOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 71px;
   width: 55px;
@@ -2338,7 +2340,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon.airplane {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/airplane70.png) no-repeat;
+  background: transparent url(/images/assets/airplane70.png) no-repeat;
   background-size: 100% 100%;
   height: 71px;
   width: 55px;
@@ -2346,7 +2348,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .doppler-radar .icons-trans .icon-outline.airplane {
   position: absolute;
   z-index: 2;
-  background: transparent url(images/assets/airplaneOutline.png) no-repeat;
+  background: transparent url(/images/assets/airplaneOutline.png) no-repeat;
   background-size: 100% 100%;
   height: 71px;
   width: 55px;
@@ -2854,7 +2856,7 @@ its not 1 for 1 code using so i mean i guess its aight
 }
 .almanac .icon {
   position: absolute;
-  background-image: url(images/moonphases/NEW.png);
+  background-image: url(/images/moonphases/NEW.png);
   background-size: 100% 100%;
   /*height: 182.25px;
   width: 204.75px;*/
@@ -2886,7 +2888,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/traffic_intro_bg.png);
+  background-image: url(/images/backgrounds/traffic_intro_bg.png);
   background-size: 100% 100%;
 }
 .traffic-intro .circle-one {
@@ -2949,7 +2951,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -3109,7 +3111,7 @@ its not 1 for 1 code using so i mean i guess its aight
   background-position-y: -282px !important;
 }
 .traffic-report .intensity {
-  background-image: url(images/assets/trafficblock.png);
+  background-image: url(/images/assets/trafficblock.png);
   background-size: 100% 100%;
   font-size: 43.2px;
   font-family: "Frutiger";
@@ -3249,7 +3251,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 181px;
   width: 240px;
   background:
-    url("images/assets/middle_lightblue.png") 0% 0% / 1458px,
+    url("/images/assets/middle_lightblue.png") 0% 0% / 1458px,
     0% 0% / 614px;
 }
 .traffic-flow .panel.two {
@@ -3262,7 +3264,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 181px;
   width: 240px;
   background:
-    url("images/assets/middle_lightblue.png") 0% 0% / 1458px,
+    url("/images/assets/middle_lightblue.png") 0% 0% / 1458px,
     0% 0% / 614px;
 }
 .traffic-flow .panel.three {
@@ -3275,7 +3277,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 181px;
   width: 240px;
   background:
-    url("images/assets/middle_lightblue.png") 0% 0% / 1458px,
+    url("/images/assets/middle_lightblue.png") 0% 0% / 1458px,
     0% 0% / 614px;
 }
 .traffic-flow .description {
@@ -3326,7 +3328,7 @@ its not 1 for 1 code using so i mean i guess its aight
   font-family: "Frutiger Black";
   color: #141414;
   text-shadow: none !important;
-  background-image: url(images/assets/trafficblockbig.png);
+  background-image: url(/images/assets/trafficblockbig.png);
   background-size: 100% 100%;
 }
 .traffic-flow .trafficflowcover {
@@ -3379,7 +3381,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/travel_intro_bg.png);
+  background-image: url(/images/backgrounds/travel_intro_bg.png);
   background-size: 100% 100%;
 }
 .travel-intro .circle-one {
@@ -3442,7 +3444,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -3546,7 +3548,7 @@ its not 1 for 1 code using so i mean i guess its aight
   right: 649px;
 }
 .travel-weather .sct.box {
-  background-image: url(images/assets/sct.png);
+  background-image: url(/images/assets/sct.png);
   background-size: 100% 100%;
   right: 709px;
 }
@@ -3576,7 +3578,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 1080px;
   z-index: 0;
   overflow: hidden;
-  background: url(images/maps/travelforecast/regional_map.png);
+  background: url(/images/maps/travelforecast/regional_map.png);
   background-size: 457%;
   /*background-position-x: -4971px;
     background-position-y: -1010px;*/
@@ -3587,7 +3589,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 1080px;
   z-index: 0;
   overflow: hidden;
-  background: url(images/maps/travelforecast/travelmapborders.png);
+  background: url(/images/maps/travelforecast/travelmapborders.png);
   background-size: 457%;
   /*background-position-x: -4971px;
     background-position-y: -1010px;*/
@@ -3741,7 +3743,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/airport_intro_bg.png);
+  background-image: url(/images/backgrounds/airport_intro_bg.png);
   background-size: 100% 100%;
 }
 .airport-intro .circle-one {
@@ -3804,7 +3806,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -4181,7 +4183,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/international_intro_bg.png);
+  background-image: url(/images/backgrounds/international_intro_bg.png);
   background-size: 100% 100%;
 }
 .international-intro .circle-one {
@@ -4244,7 +4246,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -4288,7 +4290,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .international-map .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -4347,7 +4349,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 167px;
 }
 .international-map .map.canada {
-  background: transparent url(images/maps/canada.png) no-repeat;
+  background: transparent url(/images/maps/canada.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.canada .city.zero {
@@ -4383,7 +4385,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 1047px;
 }
 .international-map .map.mexico {
-  background: transparent url(images/maps/mexico.png) no-repeat;
+  background: transparent url(/images/maps/mexico.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.mexico .city.zero {
@@ -4407,7 +4409,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 1125px;
 }
 .international-map .map.caribbean {
-  background: transparent url(images/maps/caribbean.png) no-repeat;
+  background: transparent url(/images/maps/caribbean.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.caribbean .city.zero {
@@ -4435,7 +4437,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 798px;
 }
 .international-map .map.southamerica {
-  background: transparent url(images/maps/southamerica.png) no-repeat;
+  background: transparent url(/images/maps/southamerica.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.southamerica .city.zero {
@@ -4463,7 +4465,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 793px;
 }
 .international-map .map.britain {
-  background: transparent url(images/maps/britain.png) no-repeat;
+  background: transparent url(/images/maps/britain.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.britain .city.zero {
@@ -4487,7 +4489,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 948px;
 }
 .international-map .map.europe {
-  background: transparent url(images/maps/europe.png) no-repeat;
+  background: transparent url(/images/maps/europe.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.europe .city.zero {
@@ -4523,7 +4525,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 1078px;
 }
 .international-map .map.africa {
-  background: transparent url(images/maps/africa.png) no-repeat;
+  background: transparent url(/images/maps/africa.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.africa .city.zero {
@@ -4555,7 +4557,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 840px;
 }
 .international-map .map.india {
-  background: transparent url(images/maps/india.png) no-repeat;
+  background: transparent url(/images/maps/india.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.india .city.zero {
@@ -4583,7 +4585,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 1142px;
 }
 .international-map .map.eastasia {
-  background: transparent url(images/maps/eastasia.png) no-repeat;
+  background: transparent url(/images/maps/eastasia.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.eastasia .city.zero {
@@ -4611,7 +4613,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 205px;
 }
 .international-map .map.oceania {
-  background: transparent url(images/maps/oceania.png) no-repeat;
+  background: transparent url(/images/maps/oceania.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.oceania .city.zero {
@@ -4643,7 +4645,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: 895px;
 }
 .international-map .map.australia {
-  background: transparent url(images/maps/australia.png) no-repeat;
+  background: transparent url(/images/maps/australia.png) no-repeat;
   background-size: 100% 100%;
 }
 .international-map .cities.australia .city.zero {
@@ -4787,8 +4789,8 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  /*background-image: url(images/golfintrofull.png);*/
-  background-image: url(images/backgrounds/golf_intro_bg.png);
+  /*background-image: url(/images/golfintrofull.png);*/
+  background-image: url(/images/backgrounds/golf_intro_bg.png);
   background-size: 100% 100%;
 }
 .golf-intro .circle-one {
@@ -4850,7 +4852,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -4986,7 +4988,7 @@ its not 1 for 1 code using so i mean i guess its aight
 .golf-index .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -5235,7 +5237,7 @@ its not 1 for 1 code using so i mean i guess its aight
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/health_intro_bg.png);
+  background-image: url(/images/backgrounds/health_intro_bg.png);
   background-size: 100% 100%;
 }
 .health-intro .circle-one {
@@ -5297,7 +5299,7 @@ its not 1 for 1 code using so i mean i guess its aight
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -5731,7 +5733,7 @@ its not 1 for 1 code using so i mean i guess its aight
 }
 .health-forecast .panel.bottom {
   top: 338px;
-  background: url(images/assets/middle_saturatedblue.png) !important;
+  background: url(/images/assets/middle_saturatedblue.png) !important;
   background-size: 1458px, 614px !important;
   background-position-y: -338px !important;
   height: 276px;
@@ -5979,7 +5981,7 @@ its not 1 for 1 code using so i mean i guess its aight
   height: 614px;
 }
 .uv-index .panel.white {
-  background: url(images/assets/middle_white.png);
+  background: url(/images/assets/middle_white.png);
   background-size: 1458px, 614px;
   height: 154px;
 }
@@ -6309,7 +6311,7 @@ img.raysawareness {
   height: 614px;
 }
 .health-tip .panel.white {
-  background: url(images/assets/middle_white.png);
+  background: url(/images/assets/middle_white.png);
   background-size: 1458px, 614px;
   height: 154px;
 }
@@ -6377,7 +6379,7 @@ img.raysawareness {
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/garden_intro_bg.png);
+  background-image: url(/images/backgrounds/garden_intro_bg.png);
   background-size: 100% 100%;
 }
 .garden-intro .circle-one {
@@ -6439,7 +6441,7 @@ img.raysawareness {
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -6698,7 +6700,7 @@ img.raysawareness {
 .estimated-precip .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -6813,7 +6815,7 @@ img.raysawareness {
 .precip-forecast .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -7004,7 +7006,7 @@ img.raysawareness {
 .drought-monitor .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -7101,7 +7103,7 @@ img.raysawareness {
 .frost-freeze .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -7190,7 +7192,7 @@ img.raysawareness {
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/ski_intro_bg.png);
+  background-image: url(/images/backgrounds/ski_intro_bg.png);
   background-size: 100% 100%;
 }
 .ski-intro .circle-one {
@@ -7252,7 +7254,7 @@ img.raysawareness {
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -7517,7 +7519,7 @@ img.raysawareness {
 .snowfall-forecast .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
@@ -7607,7 +7609,7 @@ img.raysawareness {
   height: 614px;
 }
 .ski-tip .panel.white {
-  background: url(images/assets/middle_white.png);
+  background: url(/images/assets/middle_white.png);
   background-size: 1458px, 614px;
   height: 154px;
 }
@@ -7653,7 +7655,7 @@ img.raysawareness {
   width: 1620px;
   z-index: 4;
   height: 1080px;
-  background-image: url(images/backgrounds/boatbeach_intro_bg.png);
+  background-image: url(/images/backgrounds/boatbeach_intro_bg.png);
   background-size: 100% 100%;
 }
 .beach-intro .circle-one {
@@ -7715,7 +7717,7 @@ img.raysawareness {
   left: -3420px;
   width: 500%;
   height: 38px;
-  background-image: url(images/assets/wxscan_crawlgrey.png);
+  background-image: url(/images/assets/wxscan_crawlgrey.png);
   background-size: 2.54% 100%;
   opacity: 0.4;
   bottom: 213px;
@@ -7948,7 +7950,7 @@ img.raysawareness {
 .water-temps .overlay {
   position: absolute;
   z-index: 1;
-  background: transparent url(images/backgrounds/map_banner_bg.png) no-repeat;
+  background: transparent url(/images/backgrounds/map_banner_bg.png) no-repeat;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
