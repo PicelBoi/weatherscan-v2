@@ -1679,8 +1679,8 @@ function grabTickerCities(lat, lon) {
           continue;
         }
         createNewCity(
-          data.location.latitude[(i * 5) % data.location.latitude.length],
-          data.location.longitude[(i * 2) % data.location.latitude.length],
+          data.location.latitude[i],
+          data.location.longitude[i],
           tickerArray,
         );
       }
