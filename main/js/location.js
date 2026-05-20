@@ -1435,6 +1435,10 @@ function grabNearbyCities(lat, lon) {
     `https://api.weather.com/v3/location/near?geocode=${locpull}&product=observation&format=json&apiKey=${systemSettings.apiKeys.api_key}`,
     function (data) {
       for (let i = 0; i < data.location.stationId.length; i++) {
+        // We shouldn't get data from buoys, TWC doesn't have data on them
+        if (data.location.obsType[i] == "BUOY") {
+          continue;
+        }
         createNewNearbyCity(
           data.location.latitude[i],
           data.location.longitude[i],
@@ -1536,6 +1540,10 @@ function grabExtraCities(lat, lon) {
     function (data) {
       //console.log(data);
       for (let i = 0; i < data.location.stationId.length; i++) {
+        // We shouldn't get data from buoys, TWC doesn't have data on them
+        if (data.location.obsType[i] == "BUOY") {
+          continue;
+        }
         createNewExtraCity(
           data.location.latitude[i],
           data.location.longitude[i],
