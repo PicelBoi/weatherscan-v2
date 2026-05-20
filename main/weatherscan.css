@@ -553,7 +553,7 @@ img#mist-logo {
 .radar-lbar .cities .city .dot {
   position: absolute;
   z-index: 0;
-  background: transparent url(images/assets/locatorDotsmall.png) no-repeat;
+  background: transparent url(images/assets/locatorDotSmall.png) no-repeat;
   background-size: 100% 100%;
 }
 .radar-lbar .cities .city .dot-outline {
