@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 import { httpServerHandler } from "cloudflare:node";
+const __dirname = import.meta.dirname;
 const app = express();
 const port = 3000;
 
